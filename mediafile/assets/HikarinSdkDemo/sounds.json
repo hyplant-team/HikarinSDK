@@ -3,7 +3,7 @@
         "replace": false,
         "sounds": [
             {
-            "name": "mobtalkerredux:voice/simple_sequential/example1",
+            "name": "HikarinSdkDemo:voice/simple_sequential/example1",
             "type": "file",
             "weight": 1,
             "attenuation_distance": 16,
@@ -13,6 +13,6 @@
             "volume": 1.0
             }
         ],
-        "subtitle": "subtitles.mobtalker.voice.simple_sequential.example1"
+        "subtitle": "subtitles.HikarinSdkDemo.voice.simple_sequential.example1"
     }
 }
