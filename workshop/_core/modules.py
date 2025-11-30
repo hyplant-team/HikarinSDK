@@ -3,7 +3,7 @@
 # Just add new method here
 # Adding new class unfortunately still doesn't work, (Yet), I'm working on it
 # Feel free to customize it to your system~
-from src.model import Character
+from _core.model import Character
 import re
 class VisualNovelModule:
     # A class-level attribute to hold the single instance

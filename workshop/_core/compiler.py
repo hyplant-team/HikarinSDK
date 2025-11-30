@@ -1,6 +1,7 @@
 import json
 import unicodedata
 
+SCRIPT_DIR = "mediafile/assets/HikarinSdkDemo"
 
 def compileVN(script):
     # The story 'script' file, automatically compiles into a list of dict, each one represents a state
@@ -72,13 +73,13 @@ def check(actions: list[dict]):
                     existing_id[action_id] = [action]
         
         # Check if any jump points to a non-existing label
-    print("Checking Existing Label:")
+    print("Checking Existing Label: ", end="")
     print(existing_label)
-    print("Checking Existing Jump:")
+    print("Checking Existing Jump: ", end="")
     print(existing_jump)
     for jump in existing_jump:
         
-        print("Checking for:")
+        print("Checking for: ", end="")
         print(jump)
         if jump not in existing_label:
             raise ValueError(f"Label not found: {jump}")
@@ -130,11 +131,11 @@ def save_to_json_file(data: list[dict], file_path: str):
 def compile(storyname,script):
     print("Compiling VN script to FSM...")
     fsm =compileVN(script)
-    save_to_json_file(fsm,"mediafile/scripts/"+storyname+".json")
+    save_to_json_file(fsm,SCRIPT_DIR+"/"+storyname+".json")
 
 def sound_compile(sounds):
     result = compile_sound(sounds)
-    save_to_json_file(result,"mediafile/scripts/sounds.json")
+    save_to_json_file(result,SCRIPT_DIR+"/"+"sounds"+".json")
 
 def compile_sound(sounds: list[dict]) -> dict:
     combined_dict = {}

@@ -6,7 +6,6 @@ from enum import Enum
 
 
 
-BASE_CHAR_PATH = Path("library/characters")
 # ==========================================
 # ENUMS (For Script Logic / Constants)
 # ==========================================
@@ -32,43 +31,23 @@ class Status(str, Enum):
 # ==========================================
 # CHARACTER MODEL (Library)
 # ==========================================
-
-@dataclass
 class Character:
-    """
-    Represents a character, with data that can be loaded from a JSON file.
-    """
-    id: str
-    name: str
-    description: str = ""
-    thoughts: str = ""
-    outfit: str = "default"
-    dyn_outfit:str = "default"
-    tags: List[str] = field(default_factory=list)
-
-    custom_data: Dict[str, Any] = field(default_factory=dict)
-
-    @classmethod
-    def from_id(cls, character_id: str):
-        """
-        A factory method to create a Character instance by loading
-        its data from 'library/characters/{character_id}/data.json'.
-        """
-        # 1. Construct the full path to the data file
-        file_path = BASE_CHAR_PATH / character_id / "data.json"
-        
-        # 2. Check if the file exists and raise a clear error if not
-        if not file_path.exists():
-            raise FileNotFoundError(f"Could not find character data at: {file_path}")
-            
-        # 3. Open, read, and parse the JSON file
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            
-        # 4. Create and return an instance of the class using the loaded data.
-        # The **data syntax automatically maps dictionary keys to the
-        # dataclass fields (e.g., "name" key becomes the name attribute).
-        return cls(**data)
+    def __init__(self, id, name, description, thoughts=None, outfit="default", additional_tags={}):
+        self.id = id
+        self.name = name
+        self.description = description
+        self.thoughts = thoughts
+        self.outfit = outfit
+        self.dyn_outfit = f"<{id}_outfit>"
+        self.tags: List[str] = ["id", "name", "description"]
+        self.custom_data: Dict[str, Any] = {"id": id, "name": name, "description": description}
+        if thoughts != None:
+            self.tags += ["thoughts"]
+            self.custom_data |= {"thoughts": thoughts}
+        self.tags += ["outfit"]
+        self.custom_data |= {"outfit": outfit}
+        self.tags += additional_tags.keys()
+        self.custom_data |= additional_tags
 
 # ==========================================
 # PROJECT MODEL (The Orchestrator)
