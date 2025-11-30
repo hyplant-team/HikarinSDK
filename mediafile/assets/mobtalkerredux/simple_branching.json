@@ -1,0 +1,235 @@
+[
+    {
+        "type": "meta",
+        "action": "start",
+        "id": 0
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_1",
+        "id": 1
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b80\u5355\u7684\u5206\u652f\u7ed3\u6784\u793a\u4f8b",
+        "id": 2
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5728\u8fd9\u4e2a\u793a\u4f8b\u4e2d",
+        "id": 3
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u7528\u6237\u5c06\u505a\u51fa\u9009\u62e9",
+        "id": 4
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4e0d\u540c\u7684\u9009\u62e9\u4f1a\u89e6\u53d1\u4e0d\u540c\u7684\u5206\u652f",
+        "id": 5
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u9879 1 \u548c 2 \u8fc7\u7a0b\u4e0d\u540c\uff0c\u7ed3\u5c40\u76f8\u540c\uff1b\u9009\u9879 3 \u7ed3\u5c40\u4e0d\u540c",
+        "id": 6
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_2",
+        "id": 7
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2",
+        "id": 8
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8bf7\u505a\u51fa\u9009\u62e9",
+        "id": 9
+    },
+    {
+        "type": "choice",
+        "action": "choice",
+        "choice": [
+            {
+                "label": "step_2_1_step_1",
+                "display": "\u9009\u9879 1"
+            },
+            {
+                "label": "step_2_2_step_1",
+                "display": "\u9009\u9879 2"
+            },
+            {
+                "label": "step_2_3_step_1",
+                "display": "\u9009\u9879 3"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2_1_step_1",
+        "id": 11
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4f60\u9009\u62e9\u4e86\u9009\u9879 1",
+        "id": 12
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u91cc\u662f\u9009\u9879 1 \u4e13\u6709\u7684\u5267\u60c5\u811a\u672c",
+        "id": 13
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u62e9\u9009\u9879 2 \u548c 3 \u5219\u4e0d\u4f1a\u770b\u5230\u8fd9\u4e9b",
+        "id": 14
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_3",
+        "id": 15
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2_2_step_1",
+        "id": 16
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4f60\u9009\u62e9\u4e86\u9009\u9879 2",
+        "id": 17
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u91cc\u662f\u9009\u9879 2 \u4e13\u6709\u7684\u5267\u60c5\u811a\u672c",
+        "id": 18
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u62e9\u9009\u9879 1 \u548c 3 \u5219\u4e0d\u4f1a\u770b\u5230\u8fd9\u4e9b",
+        "id": 19
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_3",
+        "id": 20
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2_3_step_1",
+        "id": 21
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4f60\u9009\u62e9\u4e86\u9009\u9879 3",
+        "id": 22
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u91cc\u662f\u9009\u9879 3 \u4e13\u6709\u7684\u5267\u60c5\u811a\u672c",
+        "id": 23
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u62e9\u9009\u9879 1 \u548c 2 \u5219\u4e0d\u4f1a\u770b\u5230\u8fd9\u4e9b",
+        "id": 24
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_2_3_step_2",
+        "id": 25
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2_3_step_2",
+        "id": 26
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u9009\u9879 3 \u4e13\u6709\u7684\u7ed3\u5c40",
+        "id": 27
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u62e9\u9009\u9879 1 \u548c 2 \u5219\u4e0d\u4f1a\u770b\u5230\u8fd9\u4e9b",
+        "id": 28
+    },
+    {
+        "type": "finish_dialogue",
+        "action": "finish_dialogue",
+        "id": 29
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_3",
+        "id": 30
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u9009\u9879 1 \u548c 2 \u5171\u6709\u7684\u7247\u6bb5",
+        "id": 31
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u9009\u62e9\u9009\u9879 3 \u5219\u4e0d\u4f1a\u770b\u5230\u8fd9\u4e9b",
+        "id": 32
+    },
+    {
+        "type": "finish_dialogue",
+        "action": "finish_dialogue",
+        "id": 33
+    }
+]
