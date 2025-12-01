@@ -8,7 +8,7 @@
 # Have fun then!
 
 ASSETS_DIR = "mediafile"
-OUTPUT_NAME = "HikarinSdkDemo"
+OUTPUT_NAME = "mobtalkerredux"
 
 # =======================================
 

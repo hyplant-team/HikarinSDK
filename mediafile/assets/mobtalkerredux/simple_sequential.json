@@ -1,0 +1,595 @@
+[
+    {
+        "type": "meta",
+        "action": "start",
+        "id": 0
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_1",
+        "id": 1
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b80\u5355\u7684\u987a\u5e8f\u7ed3\u6784\u793a\u4f8b",
+        "id": 2
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u73b0\u5728\u662f\u7b2c\u4e00\u4e2a\u7247\u6bb5",
+        "id": 3
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4e3a\u4f60\u5c55\u793a\u6700\u7b80\u5355\u7684\u5bf9\u8bdd",
+        "id": 4
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u73b0\u5728\u662f NPC \u5bf9\u4f60\u8bf4\u8bdd",
+        "id": 5
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5f53\u7136\uff0c\u53ef\u4ee5\u6539\u53d8\u8bf4\u8bdd\u8005",
+        "id": 6
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u53ea\u9700\u521b\u5efa\u5bf9\u5e94\u7684\u89d2\u8272",
+        "id": 7
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u7b80\u5355\u987a\u5e8f\u7ed3\u6784\u7684\u7528\u6237",
+        "content": "\u4f8b\u5982\uff0c\u8fd9\u662f\u4f60\u5bf9 NPC \u8bf4\u7684\u8bdd",
+        "id": 8
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_2",
+        "id": 9
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_2",
+        "id": 10
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b2c\u4e8c\u4e2a\u7247\u6bb5",
+        "id": 11
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u63a5\u4e0b\u6765\u6211\u4eec\u5c1d\u8bd5\u663e\u793a\u4e00\u4e2a\u7acb\u7ed8",
+        "id": 12
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/happy.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/happy.png",
+        "position": "CENTER",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 7,
+        "row": 1,
+        "id": 13
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5c31\u50cf\u8fd9\u6837",
+        "id": 14
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/sad.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/sad.png",
+        "position": "CENTER",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 7,
+        "row": 1,
+        "id": 15
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4e5f\u53ef\u4ee5\u6539\u53d8\u8868\u60c5",
+        "id": 16
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/normal.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/normal.png",
+        "position": "LEFT",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 3,
+        "row": 1,
+        "id": 17
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u653e\u5230\u5de6\u8fb9",
+        "id": 18
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/normal.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/normal.png",
+        "position": "LEFT",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 10,
+        "row": 1,
+        "id": 19
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u653e\u5230\u53f3\u8fb9",
+        "id": 20
+    },
+    {
+        "type": "remove_sprite",
+        "action": "remove_character",
+        "sprite": "test_npc_01",
+        "id": 21
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u79fb\u9664\u7acb\u7ed8",
+        "id": 22
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_3",
+        "id": 23
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_3",
+        "id": 24
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/happy.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/happy.png",
+        "position": "CENTER",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 7,
+        "row": 1,
+        "id": 25
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b2c\u4e09\u4e2a\u7247\u6bb5",
+        "id": 26
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u6211\u4eec\u53ef\u4ee5\u66f4\u6539\u80cc\u666f\u56fe\u50cf",
+        "id": 27
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "end_land.png",
+        "location": "ui/end_land.png",
+        "position": "CUSTOM",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 16,
+        "hFrameRatio": 9,
+        "column": 1,
+        "row": 1,
+        "id": 28
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5c31\u50cf\u8fd9\u6837",
+        "id": 29
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u65b0\u52a0\u5165\u7684\u56fe\u50cf\u4f1a\u663e\u793a\u5728\u6700\u4e0a\u5c42",
+        "id": 30
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/happy.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/happy.png",
+        "position": "CENTER",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 7,
+        "row": 1,
+        "id": 31
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u6240\u4ee5\u9700\u8981\u91cd\u65b0\u663e\u793a\u7acb\u7ed8",
+        "id": 32
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5f53\u7136\uff0c\u4e5f\u53ef\u4ee5\u4e00\u6b21\u6027\u663e\u793a\u80cc\u666f\u548c\u7acb\u7ed8",
+        "id": 33
+    },
+    {
+        "type": "remove_sprite",
+        "action": "remove",
+        "sprite": "end_land.png",
+        "id": 34
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5148\u79fb\u9664\u80cc\u666f",
+        "id": 35
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "end_land.png",
+        "location": "ui/end_land.png",
+        "position": "CUSTOM",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 16,
+        "hFrameRatio": 9,
+        "column": 1,
+        "row": 1,
+        "id": 36
+    },
+    {
+        "type": "show_sprite",
+        "action": "show",
+        "sprite": "test_npc_01",
+        "location": "characters/test_npc_01/default/happy.png",
+        "dyn_location": "characters/test_npc_01/<test_npc_01_outfit>/happy.png",
+        "position": "CENTER",
+        "wRatio": 16,
+        "hRatio": 9,
+        "wFrameRatio": 4,
+        "hFrameRatio": 8,
+        "column": 7,
+        "row": 1,
+        "id": 37
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u7136\u540e\u4e00\u6b21\u6027\u52a0\u5165",
+        "id": 38
+    },
+    {
+        "type": "remove_sprite",
+        "action": "remove",
+        "sprite": "end_land.png",
+        "id": 39
+    },
+    {
+        "type": "remove_sprite",
+        "action": "remove_character",
+        "sprite": "test_npc_01",
+        "id": 40
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4e5f\u652f\u6301\u4e00\u6b21\u6027\u79fb\u9664\u79fb\u9664",
+        "id": 41
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_4",
+        "id": 42
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_4",
+        "id": 43
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b2c\u56db\u4e2a\u7247\u6bb5",
+        "id": 44
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u6211\u4eec\u8fd8\u53ef\u4ee5\u6267\u884c Minecraft \u547d\u4ee4",
+        "id": 45
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5f53\u7136\uff0c\u4e16\u754c\u5fc5\u800c\u5141\u8bb8\u4f5c\u5f0a\uff0c\u4f60\u4e5f\u9700\u8981\u7279\u5b9a\u7684\u6743\u9650",
+        "id": 46
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5bf9\u4e86\uff0c\u5982\u679c\u4f60\u5728\u4f7f\u7528\u5355\u4eba\u6e38\u620f\uff0c\u4e3a\u8ba9\u547d\u4ee4\u6b63\u5e38\u5de5\u4f5c\uff0c\u8bf7\u5f00\u653e\u5230\u5c40\u57df\u7f51\u3002",
+        "id": 47
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u56e0\u4e3a\u5355\u4eba\u6e38\u620f\u4e0b\uff0c\u6253\u5f00\u5bf9\u8bdd\u6846\u4f1a\u6682\u505c\u6e38\u620f\uff0c\u5bfc\u81f4\u4e00\u4e9b\u547d\u4ee4\u65e0\u6cd5\u6b63\u5e38\u5de5\u4f5c",
+        "id": 48
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5c31\u50cf\u8fd9\u6837\uff0c\u70b9\u51fb\u5c4f\u5e55\u98de\u5929",
+        "id": 49
+    },
+    {
+        "type": "command",
+        "action": "custom_command",
+        "command": "execute as @p at @s run tp @s ~ ~10 ~",
+        "id": 50
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u53ef\u4e0d\u662f\u6539\u53d8\u80cc\u666f\uff0c\u800c\u662f\u771f\u7684\u8fdb\u884c\u4e86\u4f20\u9001",
+        "id": 51
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u518d\u70b9\u51fb\u5c4f\u5e55\u8fd4\u56de",
+        "id": 52
+    },
+    {
+        "type": "command",
+        "action": "custom_command",
+        "command": "execute as @p at @s run tp @s ~ ~-10 ~",
+        "id": 53
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u73b0\u5728\u6211\u4eec\u56de\u6765\u4e86",
+        "id": 54
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_5",
+        "id": 55
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_5",
+        "id": 56
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b2c\u4e94\u4e2a\u7247\u6bb5",
+        "id": 57
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u73b0\u5728\u6211\u4eec\u52a0\u4e0a\u89d2\u8272\u8bed\u97f3",
+        "id": 58
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8bb0\u5f97\u9002\u5f53\u8c03\u4f4e\u97f3\u91cf",
+        "id": 59
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u81ea\u5b9a\u4e49\u97f3\u9891\u53ef\u4ee5\u901a\u8fc7\u8d44\u6e90\u5305\u52a0\u8f7d",
+        "id": 60
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5c31\u50cf\u8fd9\u6837\uff0c\u70b9\u51fb\u5c4f\u5e55\u64ad\u653e\u8bed\u97f3",
+        "id": 61
+    },
+    {
+        "type": "command",
+        "action": "custom_command",
+        "command": "execute as @p at @s run playsound mobtalkerredux:voice.simple_sequential.example1 voice @s",
+        "id": 62
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u6837\u5c31\u53ef\u4ee5\u5b9e\u73b0\u89d2\u8272\u8bed\u97f3\u4e86",
+        "id": 63
+    },
+    {
+        "type": "command",
+        "action": "custom_command",
+        "command": "execute as @p at @s run stopsound @s voice mobtalkerredux:voice.simple_sequential.example1",
+        "id": 64
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\uff08\u8be5\u5267\u60c5\u811a\u672c\u4e2d\u4e4b\u540e\u7684\u5bf9\u8bdd\u6ca1\u6709\u8bed\u97f3\uff09",
+        "id": 65
+    },
+    {
+        "type": "transition",
+        "action": "jump",
+        "label": "step_6",
+        "id": 66
+    },
+    {
+        "type": "label",
+        "action": "label",
+        "label": "step_6",
+        "id": 67
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u662f\u7b2c\u516d\u4e2a\u7247\u6bb5",
+        "id": 68
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u6211\u4eec\u8981\u5b66\u4e60\u4e00\u4e0b\u4ee3\u7801\u98ce\u683c",
+        "id": 69
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u826f\u597d\u7684\u4ee3\u7801\u98ce\u683c\u53ef\u4ee5\u663e\u8457\u589e\u52a0\u4ee3\u7801\u53ef\u8bfb\u6027",
+        "id": 70
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u53ef\u4ee5\u51cf\u5c11\u540e\u7eed\u7ef4\u62a4\u7684\u6210\u672c",
+        "id": 71
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5728\u6211\u7684\u9879\u76ee\u7ed3\u6784\u4e2d",
+        "id": 72
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u5168\u90e8\u4f7f\u7528\u591a\u6587\u4ef6\u7684\u5267\u60c5\u811a\u672c",
+        "id": 73
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u6bcf\u4e2a\u7247\u6bb5\u7531\u4e00\u4e2a\u6807\u7b7e\u5f00\u59cb\uff0c\u7531\u8df3\u8f6c\u5230\u53e6\u4e00\u7247\u6bb5\u6216\u5b8c\u6210\u5bf9\u8bdd\u7ed3\u675f",
+        "id": 74
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u4e3b\u6587\u4ef6\u4e2d\u53ea\u5b8c\u6210\u53d8\u91cf\u5b9a\u4e49\u7684\u5f15\u64ce\u5f00\u59cb\uff0c\u6309\u987a\u5e8f\u5bfc\u5165\u5404\u4e2a\u7247\u6bb5\u7684\u5b50\u6587\u4ef6",
+        "id": 75
+    },
+    {
+        "type": "dialogue",
+        "action": "say",
+        "label": "\u6d4b\u8bd5 NPC 1\u53f7",
+        "content": "\u8fd9\u6837\u53ef\u4ee5\u4f7f\u5267\u60c5\u811a\u672c\u4fbf\u4e8e\u7ef4\u62a4\uff0c\u4e14\u9002\u914d\u591a\u4eba\u534f\u4f5c\u7f16\u5199",
+        "id": 76
+    },
+    {
+        "type": "finish_dialogue",
+        "action": "finish_dialogue",
+        "id": 77
+    }
+]

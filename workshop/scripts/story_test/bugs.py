@@ -15,9 +15,9 @@ def story():
     vn.say(character_2, "3. There is no way to programatically remove a sprite  that's already appeared, only replace")
     vn.say(character_2, "All of these sprite and image showing issue is being reworked as of writing this")
     vn.say(character_2, "The dev is looking to solve problem 1 and 2 at the same time right now")
-    vn.show(character_2, "tired")
+    vn.show(character_2, "tired.png")
     vn.say(character_2, "See minecraft just updated how they handle Screens and it kinda throw them off...")
-    vn.show(character_2, "normal")
+    vn.show(character_2, "normal.png")
     vn.say(character_2, "So yeah, send some love his way alright???")
     vn.jumpTo("menu_1")
     return vn.dialogueDict

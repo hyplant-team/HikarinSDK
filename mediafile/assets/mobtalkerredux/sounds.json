@@ -1,0 +1,18 @@
+{
+    "voice.simple_sequential.example1": {
+        "replace": false,
+        "sounds": [
+            {
+            "name": "mobtalkerredux:voice/simple_sequential/example1",
+            "type": "file",
+            "weight": 1,
+            "attenuation_distance": 16,
+            "pitch": 1.0,
+            "preload": false,
+            "stream": false,
+            "volume": 1.0
+            }
+        ],
+        "subtitle": "subtitles.mobtalkerredux.voice.simple_sequential.example1"
+    }
+}

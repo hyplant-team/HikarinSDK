@@ -5,7 +5,7 @@ from characters.story_test import character_2
 
 def story():
     vn.label("menu_1")
-    vn.show(character_2, "normal")
+    vn.show(character_2, "normal.png")
     vn.choice({
         "about_you": "关于你…",
         "dev_history": "为何重制要花这么久？",

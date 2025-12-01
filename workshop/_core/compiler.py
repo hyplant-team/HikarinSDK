@@ -1,7 +1,7 @@
 import json
 import unicodedata
 
-SCRIPT_DIR = "mediafile/assets/HikarinSdkDemo"
+SCRIPT_DIR = "mediafile/assets/mobtalkerredux"
 
 def compileVN(script):
     # The story 'script' file, automatically compiles into a list of dict, each one represents a state
