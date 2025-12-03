@@ -1,5 +1,5 @@
 {
-    "voice.simple_sequential.example1": {
+    "sound.simple_sequential.example1": {
         "replace": false,
         "sounds": [
             {
@@ -13,6 +13,6 @@
             "volume": 1.0
             }
         ],
-        "subtitle": "subtitles.mobtalkerredux.voice.simple_sequential.example1"
+        "subtitle": "subtitles.mobtalkerredux.sound.simple_sequential.example1"
     }
 }

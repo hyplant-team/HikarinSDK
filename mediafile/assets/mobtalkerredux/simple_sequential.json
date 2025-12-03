@@ -487,9 +487,9 @@
         "id": 61
     },
     {
-        "type": "command",
-        "action": "custom_command",
-        "command": "execute as @p at @s run playsound mobtalkerredux:voice.simple_sequential.example1 voice @s",
+        "type": "play_sound",
+        "action": "sound_effect",
+        "sound": "simple_sequential.example1",
         "id": 62
     },
     {
@@ -500,9 +500,9 @@
         "id": 63
     },
     {
-        "type": "command",
-        "action": "custom_command",
-        "command": "execute as @p at @s run stopsound @s voice mobtalkerredux:voice.simple_sequential.example1",
+        "type": "play_sound",
+        "action": "sound_effect",
+        "sound": "",
         "id": 64
     },
     {
